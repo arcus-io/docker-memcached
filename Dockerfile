@@ -1,4 +1,4 @@
-FROM base
+FROM ubuntu:12.04
 MAINTAINER Arcus "http://arcus.io"
 RUN apt-get update
 RUN apt-get install -y make gcc wget libevent-dev
